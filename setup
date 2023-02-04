@@ -1,0 +1,8 @@
+#!/bin/bash
+
+python3.10 -m venv .
+source bin/activate
+pip install --upgrade pip setuptools wheel
+
+pip install webdriver-manager
+pip install selenium
