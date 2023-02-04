@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DOWNLOAD_DIR=$1
+FILENAME=$2
+SEQ=$3
+
+mv $DOWNLOAD_DIR/$FILENAME.zip .
+mv $FILENAME.zip $SEQ.zip
+unzip -d $SEQ $SEQ.zip
+#mv $FILENAME $SEQ
