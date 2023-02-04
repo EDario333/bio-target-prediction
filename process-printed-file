@@ -1,0 +1,9 @@
+#!/bin/bash
+
+DOWNLOAD_DIR=$1
+SEQS_DIR=$2
+SEQ=$3
+SRC=$4
+DST=$5
+
+mv "$DOWNLOAD_DIR/$SRC" "$SEQS_DIR/$SEQ/$DST"
